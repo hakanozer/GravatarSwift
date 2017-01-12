@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (4.2.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - SCLAlertView (0.7.0)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - SCLAlertView
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+
+PODFILE CHECKSUM: 68097193e925e0d19c45231825cfa53177f4b6c5
+
+COCOAPODS: 1.1.1

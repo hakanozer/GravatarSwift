@@ -1,0 +1,6 @@
+framework module Pods_GravatarSwift {
+  umbrella header "Pods-GravatarSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40B3101D765BB422AEF558AC /* Pods_GravatarSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E36F5AC52279C6F87B3127 /* Pods_GravatarSwift.framework */; };
+		FF0452E31E27E2F800ADB410 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0452E21E27E2F800ADB410 /* Profile.swift */; };
+		FF5D46AA1E27E1C6006D4802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D46A91E27E1C6006D4802 /* AppDelegate.swift */; };
+		FF5D46AC1E27E1C6006D4802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D46AB1E27E1C6006D4802 /* ViewController.swift */; };
+		FF5D46AF1E27E1C6006D4802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5D46AD1E27E1C6006D4802 /* Main.storyboard */; };
+		FF5D46B11E27E1C6006D4802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5D46B01E27E1C6006D4802 /* Assets.xcassets */; };
+		FF5D46B41E27E1C6006D4802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5D46B21E27E1C6006D4802 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F7BC76D73EBEF935DA61E42 /* Pods-GravatarSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravatarSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GravatarSwift/Pods-GravatarSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		156AFF18F13AFE8A24F9713C /* Pods-GravatarSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GravatarSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-GravatarSwift/Pods-GravatarSwift.release.xcconfig"; sourceTree = "<group>"; };
+		D7E36F5AC52279C6F87B3127 /* Pods_GravatarSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GravatarSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0452E21E27E2F800ADB410 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		FF0452E51E27E4EF00ADB410 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = SOURCE_ROOT; };
+		FF5D46A61E27E1C6006D4802 /* GravatarSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravatarSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5D46A91E27E1C6006D4802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF5D46AB1E27E1C6006D4802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF5D46AE1E27E1C6006D4802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF5D46B01E27E1C6006D4802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5D46B31E27E1C6006D4802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF5D46B51E27E1C6006D4802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF5D46A31E27E1C5006D4802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B3101D765BB422AEF558AC /* Pods_GravatarSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B271C499545B1E182E1FB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E36F5AC52279C6F87B3127 /* Pods_GravatarSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3064C2D17D3FA915A1C4C4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F7BC76D73EBEF935DA61E42 /* Pods-GravatarSwift.debug.xcconfig */,
+				156AFF18F13AFE8A24F9713C /* Pods-GravatarSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF5D469D1E27E1C5006D4802 = {
+			isa = PBXGroup;
+			children = (
+				FF5D46A81E27E1C6006D4802 /* GravatarSwift */,
+				FF5D46A71E27E1C6006D4802 /* Products */,
+				C3064C2D17D3FA915A1C4C4A /* Pods */,
+				93B271C499545B1E182E1FB5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF5D46A71E27E1C6006D4802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D46A61E27E1C6006D4802 /* GravatarSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF5D46A81E27E1C6006D4802 /* GravatarSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FF0452E51E27E4EF00ADB410 /* Header.h */,
+				FF5D46A91E27E1C6006D4802 /* AppDelegate.swift */,
+				FF5D46AB1E27E1C6006D4802 /* ViewController.swift */,
+				FF5D46AD1E27E1C6006D4802 /* Main.storyboard */,
+				FF0452E21E27E2F800ADB410 /* Profile.swift */,
+				FF5D46B01E27E1C6006D4802 /* Assets.xcassets */,
+				FF5D46B21E27E1C6006D4802 /* LaunchScreen.storyboard */,
+				FF5D46B51E27E1C6006D4802 /* Info.plist */,
+			);
+			path = GravatarSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF5D46A51E27E1C5006D4802 /* GravatarSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5D46B81E27E1C6006D4802 /* Build configuration list for PBXNativeTarget "GravatarSwift" */;
+			buildPhases = (
+				F38974000B8BC8626E030448 /* [CP] Check Pods Manifest.lock */,
+				FF5D46A21E27E1C5006D4802 /* Sources */,
+				FF5D46A31E27E1C5006D4802 /* Frameworks */,
+				FF5D46A41E27E1C5006D4802 /* Resources */,
+				3D76372F863FFDD39ECAD35F /* [CP] Embed Pods Frameworks */,
+				954107F66222F6E847459B73 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravatarSwift;
+			productName = GravatarSwift;
+			productReference = FF5D46A61E27E1C6006D4802 /* GravatarSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF5D469E1E27E1C5006D4802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hakan;
+				TargetAttributes = {
+					FF5D46A51E27E1C5006D4802 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF5D46A11E27E1C5006D4802 /* Build configuration list for PBXProject "GravatarSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF5D469D1E27E1C5006D4802;
+			productRefGroup = FF5D46A71E27E1C6006D4802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF5D46A51E27E1C5006D4802 /* GravatarSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF5D46A41E27E1C5006D4802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5D46B41E27E1C6006D4802 /* LaunchScreen.storyboard in Resources */,
+				FF5D46B11E27E1C6006D4802 /* Assets.xcassets in Resources */,
+				FF5D46AF1E27E1C6006D4802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D76372F863FFDD39ECAD35F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GravatarSwift/Pods-GravatarSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		954107F66222F6E847459B73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GravatarSwift/Pods-GravatarSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F38974000B8BC8626E030448 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF5D46A21E27E1C5006D4802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5D46AC1E27E1C6006D4802 /* ViewController.swift in Sources */,
+				FF0452E31E27E2F800ADB410 /* Profile.swift in Sources */,
+				FF5D46AA1E27E1C6006D4802 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF5D46AD1E27E1C6006D4802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5D46AE1E27E1C6006D4802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF5D46B21E27E1C6006D4802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5D46B31E27E1C6006D4802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF5D46B61E27E1C6006D4802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF5D46B71E27E1C6006D4802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF5D46B91E27E1C6006D4802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7BC76D73EBEF935DA61E42 /* Pods-GravatarSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GravatarSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakanozer.com.tr.GravatarSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF5D46BA1E27E1C6006D4802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156AFF18F13AFE8A24F9713C /* Pods-GravatarSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GravatarSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakanozer.com.tr.GravatarSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF5D46A11E27E1C5006D4802 /* Build configuration list for PBXProject "GravatarSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5D46B61E27E1C6006D4802 /* Debug */,
+				FF5D46B71E27E1C6006D4802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5D46B81E27E1C6006D4802 /* Build configuration list for PBXNativeTarget "GravatarSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5D46B91E27E1C6006D4802 /* Debug */,
+				FF5D46BA1E27E1C6006D4802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF5D469E1E27E1C5006D4802 /* Project object */;
+}
